@@ -1,0 +1,4 @@
+Q1) Why http is known as state-less protocol?
+ans: The main reason behind this:
+i) htpp doesn't hold the previous request data.
+ii) It treats each request as a new one and prepare new resources as response to serve. 
