@@ -4,4 +4,26 @@ Ans: Officially we have four different types of scopes in Javascript, thoise are
 2. Local Scope
 3. Global Scope
 4. Module Scope
-But one more scope we have in JavaScript, which is not officially announced yet, and that is (script scope) 
+But one more scope we have in JavaScript, which is not officially announced yet, and that is (script scope)
+__________________________________________________________________________________________________________________________
+
+Q) If we console.log([] == ""); then we get true as output.
+then what is the output we will get if we console.log([] == []); and why?
+And also what we will get if we console.log("" == ""); and why?
+
+Ans: First Case: console.log([] == ""); It will throw true as output because both are holding empty as value.
+     Second Case: console.log([] == []); It will throw output as flase because in this case, we are comparing two reference datatype, which is always false as we know reference won't store the value it stores the reference address, and which is not similar to other. Moreover, internally javascript changes the (==) to (===) when we try to compare two same datatypes.
+
+     Third Case: console.log("" == ""); It will throw output as true, as we know String is a primitive type in JavaScript and in case of primitive type, it compares both values not their reference!
+
+Therefore, this is the answer for respective question according to me. If you find any mistake then you can correct me.
+If not then answer for those questions:
+1. 
+let a  = new String();
+let b = new String ();
+console.log(a == b); ?
+
+2. 
+let obj = {};
+let obj2 = {};
+console.log{obj != obj2); 
