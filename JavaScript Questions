@@ -1,1 +1,7 @@
-
+Q) How many scope do we have in JavaScript?
+Ans: Officially we have four different types of scopes in Javascript, thoise are:
+1. Block Scope
+2. Local Scope
+3. Global Scope
+4. Module Scope
+But one more scope we have in JavaScript, which is not officially announced yet, and that is (script scope) 
